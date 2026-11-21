@@ -1,0 +1,15 @@
+# Data (too large for GitHub - downloaded by src/download_data.py)
+data/*.txt
+data/*.zip
+data/*.csv
+!data/.gitkeep
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Mac
+.DS_Store
