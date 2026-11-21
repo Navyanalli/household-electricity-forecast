@@ -132,10 +132,10 @@ All models are evaluated on the same 336 test hours using **RMSE, MAE, MASE, Bia
 
 | Model | RMSE | MAE | MASE | Bias | True forecast? |
 |---|---|---|---|---|---|
-| SARIMAX B (measured, conditional) | 0.028 | 0.016 | 0.026 | 0.001 | No |
+| SARIMAX B (measured, conditional) | 0.028 | 0.017 | 0.026 | 0.001 | No |
 | SARIMA | 0.632 | 0.445 | 0.697 | −0.012 | Yes |
 | XGB: calendar + lags + rolling | 0.635 | 0.460 | 0.719 | 0.071 | Yes |
-| SARIMAX A (weekend flag) | 0.638 | 0.459 | 0.718 | −0.013 | Yes |
+| SARIMAX A (weekend flag) | 0.638 | 0.459 | 0.718 | −0.017 | Yes |
 | Chronos-Bolt (zero-shot) | 0.638 | 0.422 | 0.660 | −0.059 | Yes |
 | Seasonal naive (weekly) | 0.832 | 0.573 | 0.897 | 0.063 | Yes |
 

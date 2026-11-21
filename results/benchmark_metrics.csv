@@ -1,0 +1,6 @@
+Model,RMSE,MAE,MAPE (%),MASE
+Seasonal naive (weekly),0.832,0.573,70.079,0.897
+Mean,0.838,0.678,97.666,1.061
+Seasonal naive (daily),0.906,0.585,74.554,0.914
+Naive,1.094,0.809,65.399,1.266
+Drift,1.095,0.81,65.411,1.266

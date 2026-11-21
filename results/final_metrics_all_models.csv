@@ -1,0 +1,14 @@
+Model,RMSE,MAE,MAPE (%),MASE,RMSE vs best benchmark (%),True forecast?
+"SARIMAX B (measured, conditional)",0.028,0.017,1.875,0.026,96.6,No (uses future data)
+SARIMA,0.632,0.445,60.986,0.697,24.0,Yes
+XGB: calendar + lags + rolling,0.635,0.46,66.935,0.719,23.7,Yes
+XGB: calendar + lags,0.635,0.462,67.704,0.722,23.7,Yes
+XGB: calendar + lags + rolling + measured (lag 24),0.636,0.464,68.031,0.725,23.6,Yes
+SARIMAX A (weekend flag),0.638,0.459,63.74,0.718,23.3,Yes
+Chronos-Bolt (zero-shot),0.638,0.422,51.395,0.66,23.3,Yes
+XGB: calendar,0.643,0.485,74.879,0.758,22.7,Yes
+Seasonal naive (weekly),0.832,0.573,70.079,0.897,0.0,Yes
+Mean,0.838,0.678,97.666,1.061,-0.7,Yes
+Seasonal naive (daily),0.906,0.585,74.554,0.914,-8.9,Yes
+Naive,1.094,0.809,65.399,1.266,-31.5,Yes
+Drift,1.095,0.81,65.411,1.266,-31.6,Yes

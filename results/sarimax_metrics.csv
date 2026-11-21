@@ -1,0 +1,5 @@
+Model,RMSE,MAE,MAPE (%),MASE
+"SARIMAX B (measured, conditional)",0.028,0.017,1.875,0.026
+SARIMA,0.632,0.445,60.986,0.697
+SARIMAX A (weekend flag),0.638,0.459,63.74,0.718
+Seasonal naive (weekly),0.832,0.573,70.079,0.897

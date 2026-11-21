@@ -1,0 +1,7 @@
+Model,RMSE,MAE,MAPE (%),MASE
+SARIMA,0.632,0.445,60.986,0.697
+XGB: calendar + lags + rolling,0.635,0.46,66.935,0.719
+XGB: calendar + lags,0.635,0.462,67.704,0.722
+XGB: calendar + lags + rolling + measured (lag 24),0.636,0.464,68.031,0.725
+XGB: calendar,0.643,0.485,74.879,0.758
+Seasonal naive (weekly),0.832,0.573,70.079,0.897
